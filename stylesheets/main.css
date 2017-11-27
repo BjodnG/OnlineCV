@@ -1,0 +1,169 @@
+
+p{
+	margin: 0;
+	font-family: vollkorn_scregular;
+}
+
+#mainInfo{
+	margin-top: 110px;
+	margin-bottom: 125px;
+}
+
+#name{
+	font-size: 60px;
+	font-family: vollkorn_scsemibold;
+}
+@media (max-width: 992px){
+	#name{
+		font-size: 40px;	
+	}
+}
+
+.nametitle{
+	font-size: 25px;
+	font-family: vollkorn_scsemibold;
+
+}
+.mainCreds{
+	font-size: 18px;
+}
+
+#linkedIn:hover{
+	opacity: 0.85;
+}
+#gitHub:hover{
+	opacity: 0.65;
+}
+
+#megSmall{
+	height: 0;
+	width: 0;
+	position: absolute;
+	visibility: hidden;
+
+}
+@media (max-width: 767px){
+
+	#megSmall{
+		visibility: visible;
+		position: relative;
+		height: 100%;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	#megLarge{
+		position: fixed;
+		visibility: hidden;
+	}
+
+	#mainInfo{
+	margin-top: 60px;
+	margin-bottom: 90px;
+	text-align: center;
+}
+}
+
+@media (max-width: 360px){
+	.imgMeg{
+		width: 100%;
+	}
+	#name{
+		font-size: 28px;	
+	}
+	.nametitle{
+	font-size: 20px;
+	font-family: vollkorn_scsemibold;
+
+}
+}
+
+#education{
+
+}
+a{
+	color: black;
+}
+a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+.section{
+	margin-bottom: 100px;	
+}
+.SectHeadline{
+	font-size: 35px;
+	font-family: vollkorn_scsemibold;
+	text-align: right;
+}
+
+
+.SectMidHeadline{
+	font-size: 30px;
+
+}
+.SectSmlHeadline{
+	font-size: 20px;
+}
+.SectSmlThickHeadline{
+	font-size: 22px;
+	font-family: vollkorn_scsemibold;
+}
+
+@media (min-width: 768px){
+	.SectHeadline{
+		font-size: 30px;
+
+	}
+}
+
+@media (max-width: 767px){
+	.SectHeadline{
+		text-align: center;
+	}
+}
+@media  (max-width: 350px){
+	
+	.SectHeadline{
+		font-size: 30px;
+
+	}
+
+	.SectMidHeadline{
+		font-size: 20px;
+
+	}
+
+}
+
+
+
+.course{
+	background-color: #83b692;
+	margin: 5px;
+	padding: 6px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+
+	border-radius: 25px;
+}
+.course:hover{
+	background-color: #5e8a6b;
+}
+.skill{
+	background-color: #e17a7a;
+	margin: 5px;
+	padding: 6px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+
+	border-radius: 25px;
+}
+
+
+.job{
+	margin-bottom: 40px;	
+}

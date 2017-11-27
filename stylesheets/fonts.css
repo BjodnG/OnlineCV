@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'vollkorn_scregular';
+    src: url('../fonts/vollkornsc-regular-webfont.woff2') format('woff2'),
+         url('../fonts/vollkornsc-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vollkorn_scsemibold';
+    src: url('../fonts/vollkornsc-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/vollkornsc-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
